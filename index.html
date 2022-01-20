@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HKG Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS\style.css">
+        
+</head>
+<body>
+    <header class="head">
+
+        <div class="left">
+            <img src="img\download.png" alt="">
+            <p>HKG FITNESS</p>
+        </div>
+        <div class="mid">
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li ><a href="#">About Us</a></li>
+                <li ><a href="#">Training</a></li>
+                <li ><a href="#">Location</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+   <div class="container">
+       <h2>Join the best Gym of Delhi now!</h2>
+       <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" placeholder="Enter your Name">
+           </div>
+           <div class="form-group">
+            <input type="number" name="myAge" id="" placeholder="Enter your Age">
+           </div>
+           <div class="form-group">
+               <!-- Gender: <input type="radio" name="myGender" id="">Male <input type="radio" name="myGender" id="" checked>Female <input type="radio" name="myGender" id=""> other  -->
+               <label for="gender">Select your Gender</label>
+            <select name="myGender" id="">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other" >Other</option>
+           </div>
+           <div class="form-group">
+               <input type="number" name="phoneNumber" id="" placeholder="Enter your Phone Number">
+           </div>
+           <div class="form-group">
+               <input type="email" name="myEmail" id="" placeholder="Enter your Email">
+           </div>
+           <div class="form-group">
+               <input type="text" placeholder="Enter your Locatin">
+           </div>
+           <div class="btn">
+               <button>Submit</button>
+           </div>
+       </form>
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/abs-1850926_1920.jpg');
+    height: 1243px;
+    color: white;  
+    font-family: 'Ubuntu', sans-serif;
+}
+.head{
+    display: inline-block;
+}
+.left{
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    /* border: 2px solid red; */
+    width: 100px;
+    cursor: pointer;
+    
+}
+.left img{
+    height: 71px;
+    width: 81px;
+}
+.left p{
+    font-size: 15px;
+    margin: 0px;
+    text-align: center  ;
+    font-weight: bold;
+
+
+}
+.mid{
+    /* border: 2px solid yellow; */
+    width: 700px;
+    position: absolute;
+    
+    top: 0px;
+    left: 300px;
+}
+.mid li{
+    float: left;
+    list-style: none;
+    padding: 2px 2px;
+    margin: 2px 22px;
+    font-size: 26px;
+    
+    
+}
+.mid li a{
+    text-decoration: none;
+    color: white;
+}
+.mid li :hover{
+    text-decoration: underline ;
+    color: red;
+}
+.right{
+    /* border: 2px solid blue; */
+    width: 300px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+.right :hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+}
+.right button{
+    padding: 1px;
+    margin: 1px;
+    font-size: 17px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 141px;
+    height: 28px;
+}
+
+.container{
+    border: 2px solid grey;
+    width: 500px;
+    position: fixed;
+    top: 168px;
+    left: 99px;
+    border-radius: 13px;
+}
+.container h2{
+    text-align: center;
+}
+.container input{
+    margin: 2px 90px;
+    padding: 7px;
+    width: 329px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+.container label{
+    margin:2px 0px 2px 90px;
+    padding: 3px;
+   
+    /* display: block; width: 100px; */
+}
+.container label select{
+    width: 168px;
+    height: 24px;
+    padding: 2px;
+    margin: 2px
+}
+ .container button{
+    padding: 1px;
+    margin: 5px auto;
+    font-size: 17px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 248px;
+    height: 28px;
+
+ }
